@@ -1,5 +1,8 @@
 import argparse
 from pyfiglet import Figlet, FigletFont
+from colorama import init
+
+init(autoreset=True)
 
 
 class Gradient:
@@ -11,7 +14,7 @@ class Gradient:
         r = int(self.start_color[0] + frac * (self.end_color[0] - self.start_color[0]))
         g = int(self.start_color[1] + frac * (self.end_color[1] - self.start_color[1]))
         b = int(self.start_color[2] + frac * (self.end_color[2] - self.start_color[2]))
-        return (r, g, b)
+        return r, g, b
 
 
 def get_gradient_ascii(text, start_color, end_color, font, gradient_direction):
