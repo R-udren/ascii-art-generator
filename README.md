@@ -10,21 +10,11 @@ using a variety of fonts and color gradients.
 - Customize the gradient direction (vertical, horizontal, or both).
 - Save the output to a file.
 
-## IMPORTANT
+## Requirements
 
-> **Attention!**
->
-> Escape sequence Colors are NOT supported in all terminals. If you are using a terminal that does not support colors,
-> the output will
-> be displayed in monochrome with raw ASCII characters.
-
-To view the output with colors, use a terminal that supports ANSI escape codes.
-For example, you can use the following terminals:
-
-- [Windows Terminal](https://github.com/microsoft/terminal) (Windows) - **recommended**
-- [Cmder](https://cmder.net/) (Windows)
-- [Hyper](https://hyper.is/) (Windows, macOS, Linux)
-- [kitty](https://sw.kovidgoyal.net/kitty/) (macOS, Linux)
+- [Python](https://www.python.org/downloads/) 3.6 or higher
+- [Git](https://git-scm.com/) (optional for cloning the repository)
+- Terminal that supports ANSI escape codes - e.g. [Windows Terminal](https://github.com/microsoft/terminal)
 
 ## Installation
 
