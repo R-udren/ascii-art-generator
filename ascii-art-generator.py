@@ -41,7 +41,10 @@ def get_gradient_ascii(text, start_color, end_color, font, gradient_direction):
                     raise ValueError("Invalid gradient direction")
 
                 r, g, b = gradient.get_gradient(frac)
-                colored_char = f"\x1b[38;2;{r};{g};{b}m{char}\x1b[0m"
+                
+                colored_char = char
+                if char != " ":
+                    colored_char = f"\x1b[38;2;{r};{g};{b}m{char}\x1b[0m"
                 colored_ascii_art += colored_char
 
     return colored_ascii_art
