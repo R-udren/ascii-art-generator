@@ -20,28 +20,28 @@ using a variety of fonts and color gradients.
 
 1. Clone this repository to your local machine:
 
-    ```bash
-    git clone https://github.com/R-udren/ascii-art-generator.git
-    ```
+   ```bash
+   git clone https://github.com/R-udren/ascii-art-generator.git
+   ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd ascii-art-generator
-    ```
+   ```bash
+   cd ascii-art-generator
+   ```
 
 3. Install the required Python packages:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 Run the script with the following command:
 
 ```bash
-python ascii_art_generator.py [options]
+python ascii-art-generator.py [options]
 ```
 
 ### Options
@@ -59,7 +59,7 @@ python ascii_art_generator.py [options]
 Generate an ASCII art banner with the text "Hello World":
 
 ```bash
-python ascii_art_generator.py "Hello World"
+python ascii-art-generator.py "Hello World"
 ```
 
 [![Hello World](images/hello_world.png)](images/hello_world.png)
@@ -67,7 +67,7 @@ python ascii_art_generator.py "Hello World"
 One more example:
 
 ```bash
-python ascii_art_generator.py "rovert dev" --font nancyj-fancy -f 0 255 125 -t 50 100 255
+python ascii-art-generator.py "rovert dev" --font nancyj-fancy -f 0 255 125 -t 50 100 255
 ```
 
 [![rovert dev](images/dev.png)](images/dev.png)
@@ -75,7 +75,7 @@ python ascii_art_generator.py "rovert dev" --font nancyj-fancy -f 0 255 125 -t 5
 Generate an ASCII art banner with the text "rovert", gradient and save it to a file:
 
 ```bash
-python ascii_art_generator.py "rovert" --font bloody --from-color 255 0 125 --to-color 125 0 255 -d both -o banner.txt
+python ascii-art-generator.py "rovert" --font bloody --from-color 255 0 125 --to-color 125 0 255 -d both -o banner.txt
 ```
 
 [![rovert](images/rovert.png)](images/rovert.png)
