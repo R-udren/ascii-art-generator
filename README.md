@@ -86,4 +86,4 @@ python ascii-art-generator.py "rovert" --font bloody --from-color 255 0 125 --to
 
 ## Author
 
-- [rovert](https://github.com/R-udren)
+- [insoulglobal](https://github.com/R-udren)
