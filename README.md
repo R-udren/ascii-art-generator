@@ -1,4 +1,4 @@
-# ASCII Art Generator with Gradient Colors
+# ASCII Text art Generator with Gradient Colors
 
 This Python script generates ASCII art with gradient colors. It allows you to create visually stunning text banners
 using a variety of fonts and color gradients.
