@@ -83,7 +83,3 @@ python ascii-art-generator.py "rovert" --font bloody --from-color 255 0 125 --to
 ## Acknowledgements
 
 - [pyfiglet](https://github.com/pwaller/pyfiglet) - ASCII art fonts library.
-
-## Author
-
-- [insoulglobal](https://github.com/R-udren)
